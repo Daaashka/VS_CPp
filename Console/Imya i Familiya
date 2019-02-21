@@ -1,0 +1,31 @@
+#include <iostream> 
+ #include <string>
+     
+	 using namespace std;
+	 
+	 int i;
+	 
+	 int main()
+	 {
+	 
+	 setlocale(LC_ALL, "rus");
+	 cout<<"\n\n\tПечатаем фамилию имя в цикле";
+	 string np,nm;
+	 getline (cine,nm,np);
+	 
+	 cout<<"\n\tВведите Вашу фамилию:";
+	 string np;
+	 getline (cine,np);
+	 
+	 cout<<"\n\tВведите ваше имя:";
+	 string nm;
+	 getline(cine,nm);
+	 
+	 for(i=0; i<11; i++)
+	 
+	 cout<<endl<<endl<< "\t";
+	 system("pause");
+	 
+	 
+	return 0;
+	}
